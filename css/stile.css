@@ -1,0 +1,90 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background:#ffffff;
+    margin:0;
+}
+
+/* MENU */
+
+.menu{
+    display:flex;
+    justify-content:center;
+    list-style:none;
+    padding:0;
+    margin:20px 0;
+}
+
+.menu li a{
+    display:block;
+    width:140px;
+    text-align:center;
+    padding:15px;
+    text-decoration:none;
+    background:#2b7cff;
+    color:white;
+    border:1px solid #0f4ec9;
+}
+
+.menu li a:hover{
+    background:#1b5fd8;
+}
+
+/* CUADRO */
+
+.contenedor{
+    width:700px;
+    margin:40px auto;
+    background:#9feeff;
+    border:8px solid #0066ff;
+    border-radius:35px;
+    padding:40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.fila{
+    margin:15px 0;
+}
+
+.fila label{
+    display:inline-block;
+    width:100px;
+    font-weight:bold;
+    color:#0046a8;
+}
+
+.fila input{
+    width:250px;
+    padding:8px;
+}
+
+.btn{
+    width:120px;
+    height:120px;
+    font-size:20px;
+    border:none;
+    background:white;
+    cursor:pointer;
+}
+
+/* TABLA */
+
+table{
+    width:80%;
+    margin:30px auto;
+    border-collapse:collapse;
+}
+
+th{
+    background:#2b7cff;
+    color:white;
+}
+
+th,
+td{
+    border:1px solid black;
+    padding:10px;
+    text-align:center;
+}
